@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "path": "/api/*",
+      "target": "/api",
+      "method": "*"
+    },
+    {
+      "path": "/*",
+      "target": "/index.html",
+      "method": "*"
+    }
+  ]
+}
