@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "hono": "npm:hono"
+  },
+  "exclude": ["node_modules", "dist"],
+  "nodeModulesDir": "auto"
+}
