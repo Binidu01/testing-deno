@@ -1,11 +1,9 @@
 {
-  "imports": {
-    "hono": "npm:hono@^4.12.12"
-  },
-  "nodeModulesDir": "auto",
   "tasks": {
-    "cache": "deno cache server/index.ts",
     "build": "vite build",
-    "start": "deno task cache && deno run --allow-net --allow-read --allow-env --node-modules-dir server/index.ts"
+    "start": "deno run --allow-net --allow-read --allow-env server/index.ts"
+  },
+  "imports": {
+    "hono": "https://deno.land/x/hono@v4.3.11/mod.ts"
   }
 }
