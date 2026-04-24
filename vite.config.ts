@@ -18,7 +18,7 @@ export default defineConfig(({ command, mode }) => {
     plugins: [
       tailwindcss(),
       react(),
-      biniroute({ platform: 'node' }),
+      biniroute({ platform: 'deno' }),
       biniOverlay(),
       biniEnv(),
       biniExport(),
